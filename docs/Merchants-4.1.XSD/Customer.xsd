@@ -4,8 +4,8 @@
 	<xs:annotation>
 		<xs:documentation>$Date: 2004/11/18 $</xs:documentation>
 	</xs:annotation>
-	<xs:include schemaLocation="https://github.com/maxlang/amz-client/blob/master/docs/Merchants-4.1.XSD/PaymentMethod.xsd"/>
-	<xs:include schemaLocation="https://github.com/maxlang/amz-client/blob/master/docs/Merchants-4.1.XSD/CustomerAddress.xsd"/>
+	<xs:include schemaLocation="https://raw.githubusercontent.com/maxlang/amz-client/master/docs/Merchants-4.1.XSD/PaymentMethod.xsd"/>
+	<xs:include schemaLocation="https://raw.githubusercontent.com/maxlang/amz-client/master/docs/Merchants-4.1.XSD/CustomerAddress.xsd"/>
 	<xs:element name="Customer">
 		<xs:annotation>
 			<xs:documentation>A single customer account</xs:documentation>

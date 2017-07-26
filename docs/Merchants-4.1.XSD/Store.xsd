@@ -10,7 +10,7 @@
     web site pursuant to an agreement with Amazon.com.
 		</xsd:documentation>
 	</xsd:annotation>
-	<xsd:include schemaLocation="https://github.com/maxlang/amz-client/blob/master/docs/Merchants-4.1.XSD/amzn-base.xsd"/>
+	<xsd:include schemaLocation="https://raw.githubusercontent.com/maxlang/amz-client/master/docs/Merchants-4.1.XSD/amzn-base.xsd"/>
 	<xsd:element name="Store">
 		<xsd:complexType>
 			<xsd:sequence>

@@ -4,7 +4,7 @@
 	<xs:annotation>
 		<xs:documentation>$Date: 2004/11/18 $</xs:documentation>
 	</xs:annotation>
-	<xs:include schemaLocation="https://github.com/maxlang/amz-client/blob/master/docs/Merchants-4.1.XSD/amzn-base.xsd"/>
+	<xs:include schemaLocation="https://raw.githubusercontent.com/maxlang/amz-client/master/docs/Merchants-4.1.XSD/amzn-base.xsd"/>
 	<xs:element name="PaymentMethods">
 		<xs:annotation>
 			<xs:documentation>A container to payment methods (e.g. credit card, debit card, invoice account) of the customer</xs:documentation>

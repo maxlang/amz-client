@@ -2,9 +2,9 @@
 <!-- Revision="$Revision: #6 $" -->
 <xsd:schema xmlns:xsd="http://www.w3.org/2001/XMLSchema" elementFormDefault="qualified">
 	<!-- Include the data type primitives -->
-	<xsd:include schemaLocation="https://github.com/maxlang/amz-client/blob/master/docs/Merchants-4.1.XSD/TypeDefinitions.xsd"/>
-	<xsd:include schemaLocation="https://github.com/maxlang/amz-client/blob/master/docs/Merchants-4.1.XSD/ProductAttributes.xsd"/>
-	<xsd:include schemaLocation="https://github.com/maxlang/amz-client/blob/master/docs/Merchants-4.1.XSD/AttributeGroups.xsd"/>
+	<xsd:include schemaLocation="https://raw.githubusercontent.com/maxlang/amz-client/master/docs/Merchants-4.1.XSD/TypeDefinitions.xsd"/>
+	<xsd:include schemaLocation="https://raw.githubusercontent.com/maxlang/amz-client/master/docs/Merchants-4.1.XSD/ProductAttributes.xsd"/>
+	<xsd:include schemaLocation="https://raw.githubusercontent.com/maxlang/amz-client/master/docs/Merchants-4.1.XSD/AttributeGroups.xsd"/>
 	<!-- Start of the WebstoreItem schema -->
 	<xsd:element name="WebstoreItem">
 		<xsd:complexType>
