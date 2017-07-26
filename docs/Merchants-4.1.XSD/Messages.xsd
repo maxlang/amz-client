@@ -10,16 +10,16 @@
 	to list products for sale on the www.amazon.com web site pursuant to an agreement
 	with Amazon.com.
 	-->
-	<xsd:include schemaLocation="amzn-base.xsd"/>
-	<xsd:include schemaLocation="amzn-header.xsd"/>
-	<xsd:include schemaLocation="Inventory.xsd"/>
-	<xsd:include schemaLocation="Item.xsd"/>
-	<xsd:include schemaLocation="Listings.xsd"/>
-	<xsd:include schemaLocation="Override.xsd"/>
-	<xsd:include schemaLocation="Price.xsd"/>
-	<xsd:include schemaLocation="ProcessingReport.xsd"/>
-	<xsd:include schemaLocation="ProductImage.xsd"/>
-	<xsd:include schemaLocation="Relationship.xsd"/>
+	<xsd:include schemaLocation="https://github.com/maxlang/amz-client/blob/master/docs/Merchants-4.1.XSD/amzn-base.xsd"/>
+	<xsd:include schemaLocation="https://github.com/maxlang/amz-client/blob/master/docs/Merchants-4.1.XSD/amzn-header.xsd"/>
+	<xsd:include schemaLocation="https://github.com/maxlang/amz-client/blob/master/docs/Merchants-4.1.XSD/Inventory.xsd"/>
+	<xsd:include schemaLocation="https://github.com/maxlang/amz-client/blob/master/docs/Merchants-4.1.XSD/Item.xsd"/>
+	<xsd:include schemaLocation="https://github.com/maxlang/amz-client/blob/master/docs/Merchants-4.1.XSD/Listings.xsd"/>
+	<xsd:include schemaLocation="https://github.com/maxlang/amz-client/blob/master/docs/Merchants-4.1.XSD/Override.xsd"/>
+	<xsd:include schemaLocation="https://github.com/maxlang/amz-client/blob/master/docs/Merchants-4.1.XSD/Price.xsd"/>
+	<xsd:include schemaLocation="https://github.com/maxlang/amz-client/blob/master/docs/Merchants-4.1.XSD/ProcessingReport.xsd"/>
+	<xsd:include schemaLocation="https://github.com/maxlang/amz-client/blob/master/docs/Merchants-4.1.XSD/ProductImage.xsd"/>
+	<xsd:include schemaLocation="https://github.com/maxlang/amz-client/blob/master/docs/Merchants-4.1.XSD/Relationship.xsd"/>
 	<xsd:element name="Messages">
 		<xsd:complexType>
 			<xsd:sequence>

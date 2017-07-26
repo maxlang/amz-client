@@ -12,7 +12,7 @@
     with Amazon.com.
     -->
 
-    <xsd:include schemaLocation="amzn-base.xsd"/>
+    <xsd:include schemaLocation="https://github.com/maxlang/amz-client/blob/master/docs/Merchants-4.1.XSD/amzn-base.xsd"/>
     <xsd:element name="Loyalty">
         <xsd:complexType>
             <xsd:sequence>

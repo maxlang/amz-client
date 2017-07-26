@@ -4,7 +4,7 @@
 	<xs:annotation>
 		<xs:documentation>$Date: 2004/11/18 $</xs:documentation>
 	</xs:annotation>
-	<xs:include schemaLocation="amzn-base.xsd"/>
+	<xs:include schemaLocation="https://github.com/maxlang/amz-client/blob/master/docs/Merchants-4.1.XSD/amzn-base.xsd"/>
 	<xs:element name="CustomerAddresses">
 		<xs:annotation>
 			<xs:documentation>List of customer's billing and shipping addresses.  Addresses may be for people other than the customer (e.g. friends and family)</xs:documentation>

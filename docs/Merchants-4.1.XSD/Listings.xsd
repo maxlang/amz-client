@@ -10,19 +10,19 @@
     to list products for sale on the www.amazon.com web site pursuant to an agreement
     with Amazon.com.
     -->
-        <xsd:include schemaLocation="amzn-base.xsd"/>
-        <xsd:include schemaLocation="FulfillmentOrderCancellationRequest.xsd"/>
-        <xsd:include schemaLocation="FulfillmentOrderRequest.xsd"/>
-        <xsd:include schemaLocation="Inventory.xsd"/>
-        <xsd:include schemaLocation="Item.xsd"/>
-        <xsd:include schemaLocation="ListingSummary.xsd"/>
-        <xsd:include schemaLocation="Offer.xsd"/>
-        <xsd:include schemaLocation="Override.xsd"/>
-        <xsd:include schemaLocation="Price.xsd"/>
-        <xsd:include schemaLocation="Product.xsd"/>
-        <xsd:include schemaLocation="ProductImage.xsd"/>
-        <xsd:include schemaLocation="Relationship.xsd"/>
-        <xsd:include schemaLocation="WebstoreItem.xsd"/>
+        <xsd:include schemaLocation="https://github.com/maxlang/amz-client/blob/master/docs/Merchants-4.1.XSD/amzn-base.xsd"/>
+        <xsd:include schemaLocation="https://github.com/maxlang/amz-client/blob/master/docs/Merchants-4.1.XSD/FulfillmentOrderCancellationRequest.xsd"/>
+        <xsd:include schemaLocation="https://github.com/maxlang/amz-client/blob/master/docs/Merchants-4.1.XSD/FulfillmentOrderRequest.xsd"/>
+        <xsd:include schemaLocation="https://github.com/maxlang/amz-client/blob/master/docs/Merchants-4.1.XSD/Inventory.xsd"/>
+        <xsd:include schemaLocation="https://github.com/maxlang/amz-client/blob/master/docs/Merchants-4.1.XSD/Item.xsd"/>
+        <xsd:include schemaLocation="https://github.com/maxlang/amz-client/blob/master/docs/Merchants-4.1.XSD/ListingSummary.xsd"/>
+        <xsd:include schemaLocation="https://github.com/maxlang/amz-client/blob/master/docs/Merchants-4.1.XSD/Offer.xsd"/>
+        <xsd:include schemaLocation="https://github.com/maxlang/amz-client/blob/master/docs/Merchants-4.1.XSD/Override.xsd"/>
+        <xsd:include schemaLocation="https://github.com/maxlang/amz-client/blob/master/docs/Merchants-4.1.XSD/Price.xsd"/>
+        <xsd:include schemaLocation="https://github.com/maxlang/amz-client/blob/master/docs/Merchants-4.1.XSD/Product.xsd"/>
+        <xsd:include schemaLocation="https://github.com/maxlang/amz-client/blob/master/docs/Merchants-4.1.XSD/ProductImage.xsd"/>
+        <xsd:include schemaLocation="https://github.com/maxlang/amz-client/blob/master/docs/Merchants-4.1.XSD/Relationship.xsd"/>
+        <xsd:include schemaLocation="https://github.com/maxlang/amz-client/blob/master/docs/Merchants-4.1.XSD/WebstoreItem.xsd"/>
 
         <xsd:element name="Listings">
                 <xsd:complexType>
